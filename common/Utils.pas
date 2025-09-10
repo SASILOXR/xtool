@@ -3878,14 +3878,14 @@ end;
 function CaseStr(AIndex: Integer; const AValues: array of String): String;
 begin
   Result := '';
-  if AIndex in [Low(AValues) .. High(AValues)] then
+  if AIndex in [Integer(Low(AValues)) .. Integer(High(AValues))] then
     Result := AValues[AIndex];
 end;
 
 function CaseInt(AIndex: Integer; const AValues: array of Integer): Integer;
 begin
   Result := 0;
-  if AIndex in [Low(AValues) .. High(AValues)] then
+  if AIndex in [Integer(Low(AValues)) .. Integer(High(AValues))] then
     Result := AValues[AIndex];
 end;
 

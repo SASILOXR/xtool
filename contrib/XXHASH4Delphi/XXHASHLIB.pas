@@ -1,5 +1,4 @@
 //remove this to use SSE2 only
-{.$DEFINE AVX2}
 
 
 unit XXHASHLIB;

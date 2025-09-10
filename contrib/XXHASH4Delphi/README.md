@@ -1,8 +1,9 @@
 # XXHASH4Delphi
+
 XXHash Wrapper for Delphi
 prebuild XXHash 0.8.1 Static Linked Object file with AVX2 or SSE2 support for both X64 and X86 platform.
 Simple test program provided.
- 
+
 xxHash is an Extremely fast Hash algorithm, running at RAM speed limits. It successfully completes the SMHasher test suite which evaluates collision, dispersion and randomness qualities of hash functions. Code is highly portable, and hashes are identical across all platforms (little / big endian).
 
 precompiled object files were compiled with GCC 11.2 with -O3 and -mAVX2 or -mSSE2
